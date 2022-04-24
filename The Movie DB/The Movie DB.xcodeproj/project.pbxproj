@@ -16,6 +16,20 @@
 		C0E3EE7A2814FA9800E9E27E /* The_Movie_DBTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EE792814FA9800E9E27E /* The_Movie_DBTests.swift */; };
 		C0E3EE842814FA9800E9E27E /* The_Movie_DBUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EE832814FA9800E9E27E /* The_Movie_DBUITests.swift */; };
 		C0E3EE862814FA9800E9E27E /* The_Movie_DBUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EE852814FA9800E9E27E /* The_Movie_DBUITestsLaunchTests.swift */; };
+		C0E3EEA12815054100E9E27E /* NSAppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EEA02815054100E9E27E /* NSAppError.swift */; };
+		C0E3EEA32815056F00E9E27E /* ErrorCodes.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EEA22815056F00E9E27E /* ErrorCodes.swift */; };
+		C0E3EEA52815059600E9E27E /* ErrorKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EEA42815059600E9E27E /* ErrorKeys.swift */; };
+		C0E3EEA7281505AD00E9E27E /* AppError.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EEA6281505AD00E9E27E /* AppError.swift */; };
+		C0E3EEA9281505C900E9E27E /* APIRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EEA8281505C900E9E27E /* APIRequest.swift */; };
+		C0E3EEAC2815075F00E9E27E /* TargetEnvironment.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EEAB2815075F00E9E27E /* TargetEnvironment.swift */; };
+		C0E3EEAE281507E100E9E27E /* Routable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EEAD281507E100E9E27E /* Routable.swift */; };
+		C0E3EEB02815084200E9E27E /* HttpProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EEAF2815084200E9E27E /* HttpProtocol.swift */; };
+		C0E3EEB2281509B200E9E27E /* HttpMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EEB1281509B200E9E27E /* HttpMethod.swift */; };
+		C0E3EEB5281514B400E9E27E /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EEB4281514B400E9E27E /* Response.swift */; };
+		C0E3EEB7281514D200E9E27E /* Requestable.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EEB6281514D200E9E27E /* Requestable.swift */; };
+		C0E3EEBB2815AEDA00E9E27E /* ProtocolBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EEBA2815AEDA00E9E27E /* ProtocolBase.swift */; };
+		C0E3EEBD2815AEF500E9E27E /* Dynamic.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EEBC2815AEF500E9E27E /* Dynamic.swift */; };
+		C0E3EEBF2815AF1000E9E27E /* ViewModelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0E3EEBE2815AF1000E9E27E /* ViewModelBase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +63,21 @@
 		C0E3EE7F2814FA9800E9E27E /* The Movie DBUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "The Movie DBUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0E3EE832814FA9800E9E27E /* The_Movie_DBUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Movie_DBUITests.swift; sourceTree = "<group>"; };
 		C0E3EE852814FA9800E9E27E /* The_Movie_DBUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = The_Movie_DBUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C0E3EEA02815054100E9E27E /* NSAppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NSAppError.swift; sourceTree = "<group>"; };
+		C0E3EEA22815056F00E9E27E /* ErrorCodes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorCodes.swift; sourceTree = "<group>"; };
+		C0E3EEA42815059600E9E27E /* ErrorKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorKeys.swift; sourceTree = "<group>"; };
+		C0E3EEA6281505AD00E9E27E /* AppError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppError.swift; sourceTree = "<group>"; };
+		C0E3EEA8281505C900E9E27E /* APIRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRequest.swift; sourceTree = "<group>"; };
+		C0E3EEAA281506E200E9E27E /* Development.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		C0E3EEAB2815075F00E9E27E /* TargetEnvironment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetEnvironment.swift; sourceTree = "<group>"; };
+		C0E3EEAD281507E100E9E27E /* Routable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Routable.swift; sourceTree = "<group>"; };
+		C0E3EEAF2815084200E9E27E /* HttpProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpProtocol.swift; sourceTree = "<group>"; };
+		C0E3EEB1281509B200E9E27E /* HttpMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HttpMethod.swift; sourceTree = "<group>"; };
+		C0E3EEB4281514B400E9E27E /* Response.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Response.swift; sourceTree = "<group>"; };
+		C0E3EEB6281514D200E9E27E /* Requestable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Requestable.swift; sourceTree = "<group>"; };
+		C0E3EEBA2815AEDA00E9E27E /* ProtocolBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProtocolBase.swift; sourceTree = "<group>"; };
+		C0E3EEBC2815AEF500E9E27E /* Dynamic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dynamic.swift; sourceTree = "<group>"; };
+		C0E3EEBE2815AF1000E9E27E /* ViewModelBase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModelBase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,8 +187,8 @@
 		C0E3EE952815024C00E9E27E /* Rules */ = {
 			isa = PBXGroup;
 			children = (
-				C0E3EE962815025900E9E27E /* Common */,
 				C0E3EE972815026200E9E27E /* Modules */,
+				C0E3EE962815025900E9E27E /* Common */,
 			);
 			path = Rules;
 			sourceTree = "<group>";
@@ -167,6 +196,8 @@
 		C0E3EE962815025900E9E27E /* Common */ = {
 			isa = PBXGroup;
 			children = (
+				C0E3EEB82815AEBA00E9E27E /* Protocol */,
+				C0E3EEB92815AEC700E9E27E /* ViewModel */,
 			);
 			path = Common;
 			sourceTree = "<group>";
@@ -199,6 +230,7 @@
 		C0E3EE9A2815028E00E9E27E /* Router */ = {
 			isa = PBXGroup;
 			children = (
+				C0E3EEAD281507E100E9E27E /* Routable.swift */,
 			);
 			path = Router;
 			sourceTree = "<group>";
@@ -206,6 +238,8 @@
 		C0E3EE9B2815029500E9E27E /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C0E3EE9F2815051200E9E27E /* Errors */,
+				C0E3EEA8281505C900E9E27E /* APIRequest.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -213,6 +247,10 @@
 		C0E3EE9C2815030E00E9E27E /* Network */ = {
 			isa = PBXGroup;
 			children = (
+				C0E3EEAF2815084200E9E27E /* HttpProtocol.swift */,
+				C0E3EEB1281509B200E9E27E /* HttpMethod.swift */,
+				C0E3EEB6281514D200E9E27E /* Requestable.swift */,
+				C0E3EEB4281514B400E9E27E /* Response.swift */,
 			);
 			path = Network;
 			sourceTree = "<group>";
@@ -227,8 +265,38 @@
 		C0E3EE9E2815038B00E9E27E /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				C0E3EEAA281506E200E9E27E /* Development.xcconfig */,
+				C0E3EEAB2815075F00E9E27E /* TargetEnvironment.swift */,
 			);
 			path = Config;
+			sourceTree = "<group>";
+		};
+		C0E3EE9F2815051200E9E27E /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				C0E3EEA02815054100E9E27E /* NSAppError.swift */,
+				C0E3EEA22815056F00E9E27E /* ErrorCodes.swift */,
+				C0E3EEA42815059600E9E27E /* ErrorKeys.swift */,
+				C0E3EEA6281505AD00E9E27E /* AppError.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		C0E3EEB82815AEBA00E9E27E /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				C0E3EEBA2815AEDA00E9E27E /* ProtocolBase.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		C0E3EEB92815AEC700E9E27E /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				C0E3EEBC2815AEF500E9E27E /* Dynamic.swift */,
+				C0E3EEBE2815AF1000E9E27E /* ViewModelBase.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -363,8 +431,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0E3EE672814FA9400E9E27E /* ViewController.swift in Sources */,
+				C0E3EEB7281514D200E9E27E /* Requestable.swift in Sources */,
 				C0E3EE632814FA9400E9E27E /* AppDelegate.swift in Sources */,
+				C0E3EEBF2815AF1000E9E27E /* ViewModelBase.swift in Sources */,
+				C0E3EEA32815056F00E9E27E /* ErrorCodes.swift in Sources */,
 				C0E3EE652814FA9400E9E27E /* SceneDelegate.swift in Sources */,
+				C0E3EEB2281509B200E9E27E /* HttpMethod.swift in Sources */,
+				C0E3EEA52815059600E9E27E /* ErrorKeys.swift in Sources */,
+				C0E3EEBB2815AEDA00E9E27E /* ProtocolBase.swift in Sources */,
+				C0E3EEB5281514B400E9E27E /* Response.swift in Sources */,
+				C0E3EEA12815054100E9E27E /* NSAppError.swift in Sources */,
+				C0E3EEA9281505C900E9E27E /* APIRequest.swift in Sources */,
+				C0E3EEA7281505AD00E9E27E /* AppError.swift in Sources */,
+				C0E3EEAC2815075F00E9E27E /* TargetEnvironment.swift in Sources */,
+				C0E3EEBD2815AEF500E9E27E /* Dynamic.swift in Sources */,
+				C0E3EEB02815084200E9E27E /* HttpProtocol.swift in Sources */,
+				C0E3EEAE281507E100E9E27E /* Routable.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -541,6 +623,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "The Movie DB/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -568,6 +651,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "The Movie DB/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;

@@ -1,0 +1,11 @@
+//
+//  Development.xcconfig
+//  The Movie DB
+//
+//  Created by Jesus Loaiza Herrera on 23/04/22.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+APP_ENDPOINT = api.themoviedb.org
