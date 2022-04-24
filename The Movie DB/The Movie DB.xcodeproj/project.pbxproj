@@ -99,6 +99,11 @@
 		C0E3EE612814FA9400E9E27E /* The Movie DB */ = {
 			isa = PBXGroup;
 			children = (
+				C0E3EE922815020700E9E27E /* App */,
+				C0E3EE952815024C00E9E27E /* Rules */,
+				C0E3EE982815027800E9E27E /* NetworkService */,
+				C0E3EE9D2815037800E9E27E /* Resources */,
+				C0E3EE9E2815038B00E9E27E /* Config */,
 				C0E3EE622814FA9400E9E27E /* AppDelegate.swift */,
 				C0E3EE642814FA9400E9E27E /* SceneDelegate.swift */,
 				C0E3EE662814FA9400E9E27E /* ViewController.swift */,
@@ -125,6 +130,105 @@
 				C0E3EE852814FA9800E9E27E /* The_Movie_DBUITestsLaunchTests.swift */,
 			);
 			path = "The Movie DBUITests";
+			sourceTree = "<group>";
+		};
+		C0E3EE922815020700E9E27E /* App */ = {
+			isa = PBXGroup;
+			children = (
+				C0E3EE932815021100E9E27E /* Common */,
+				C0E3EE942815021900E9E27E /* Modules */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		C0E3EE932815021100E9E27E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C0E3EE942815021900E9E27E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C0E3EE952815024C00E9E27E /* Rules */ = {
+			isa = PBXGroup;
+			children = (
+				C0E3EE962815025900E9E27E /* Common */,
+				C0E3EE972815026200E9E27E /* Modules */,
+			);
+			path = Rules;
+			sourceTree = "<group>";
+		};
+		C0E3EE962815025900E9E27E /* Common */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		C0E3EE972815026200E9E27E /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		C0E3EE982815027800E9E27E /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				C0E3EE992815028800E9E27E /* API */,
+				C0E3EE9A2815028E00E9E27E /* Router */,
+				C0E3EE9B2815029500E9E27E /* Models */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		C0E3EE992815028800E9E27E /* API */ = {
+			isa = PBXGroup;
+			children = (
+				C0E3EE9C2815030E00E9E27E /* Network */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		C0E3EE9A2815028E00E9E27E /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		C0E3EE9B2815029500E9E27E /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		C0E3EE9C2815030E00E9E27E /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		C0E3EE9D2815037800E9E27E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		C0E3EE9E2815038B00E9E27E /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
